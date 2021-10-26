@@ -1,0 +1,75 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Info Keuangan RT.04/06 </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="hero">
+	<div class="nav-bar">
+		<div class="nav-logo">
+		<img src="logos.png">
+	</div>
+		<div class="nav-links" id="nav-links">
+			<i class="fa fa-close" onclick="closeMenu()"></i>
+		<ul>
+			<a href="index.php"><li>HOME</li></a>  
+			<a href="table_masuk.php"><li>PEMASUKAN</li></a>
+			<a href="table_keluar.php"><li>PENGELUARAN</li></a>
+			<a href="kontak.php"><li>KONTAK</li></a>
+		</ul>
+		<div>
+			<a href="rekap.php">
+				<button type="button" class="btn warning">PRINT REKAP</button></a>
+		</div>
+	</div>
+	<i class="fa fa-bars" onclick="showMenu()"></i>
+	</div>
+    <div class="banner-title">
+   
+	<h2>Tentang Kami <span> RT.04/06, Sukabumi</span>  Utara, <span>Kebon Jeruk </span></h2>    
+				
+	</div><!-- Title row end -->
+				<div class="Tentang col-md-20" >
+					<p align="justify">RT.04 adalah lingkungan yang berada di wilayah RW.06 Kelurahan Sukabumi Utara, 
+						Kecamatan Kebon Jeruk, Jakarta Barat. RT.04 memiliki lingkungan yang cukup strategis, 
+						karena sangat berdekatan dengan sebuah Universitas swasta terkenal di Jakarta, juga berada 
+						di lingkungan Sekolah Dasar Negeri 05 Pagi Jakarta Barat.</p>
+				</div><!--/ About message end -->
+    
+<div class="vertical-bar">
+<div class="search-icon">
+     <i class="fa fa-th-list"></i>
+     <i class="fa fa-search"></i>
+</div>
+<div class="social-icons">
+	<a href="https://www.facebook.com" target="_blank" style="color: black;">
+		<i class="fa fa-facebook"></i>
+	</a>
+	<a href="http://www.twitter.com" target="_blank" style="color: black;">
+		<i class="fa fa-twitter"></i>
+	</a>
+	<a href="http://www.instagram.com" target="_blank" style="color: black;">
+		<i class="fa fa-instagram"></i>
+	</a>
+	<a href="http://www.youtube.com" target="_blank" style="color: black;">
+		<i class="fa fa-youtube"></i>
+	</a>
+</div>
+
+</div>
+</div>
+<script>
+	var show = document.getElementById("nav-links");
+	function showMenu(){
+		show.style.right = "0";
+	}
+	function closeMenu(){
+		show.style.right = "-200px";
+	}
+</script>
+</body>
+</html>
+
